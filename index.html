@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bodyshape</title>
     <link rel="shortcut icon" href="images/gym-3626589_640.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header style="background: url(images/banner.png);" class="bg-center bg-cover bg-no-repeat h-screen">
+<body style="font-family: 'Open Sans', sans-serif;">
+    <header style="background: url(images/banner.png);" class="bg-center bg-cover bg-no-repeat lg:h-screen">
        
         <nav class="flex items-center justify-between w-11/12 mx-auto">
             <div class="">
@@ -25,14 +26,14 @@
             </div>
 
             <div> 
-                <ul class=" hidden md:flex gap-4 ">
+                <ul class=" hidden lg:flex gap-4 ">
                     <li><a class="hover:bg-orange-400 py-2 px-3 text-white text-xl" href="">Home</a></li>
                     <li><a class="hover:bg-orange-400 py-2 px-3 text-white text-xl" href="">Services</a></li>
                     <li><a class="hover:bg-orange-400 py-2 px-3 text-white text-xl" href="">About</a></li>
                     <li><a class="hover:bg-orange-400 py-2 px-3 text-white text-xl" href="">Contacts</a></li>
                     <li><a class="hover:bg-orange-400 py-2 px-3 text-white text-xl" href="">Join Us</a></li>
                 </ul>
-                <span class="lg:hidden md:hidden text-3xl sm:grid gap-2 ">
+                <span class="lg:hidden md:flex items-center gap-4 text-3xl">
                     <i class="fas fa-search text-orange-800"></i>
                     <i class="fas fa-bars text-orange-800"></i>
                     
@@ -242,7 +243,7 @@
   </nav>
   <nav>
     <header class="footer-title text-white">Popular Tags</header> 
-    <ul class=" grid gap-5 grid-cols-3">
+    <ul class=" grid gap-5 grid-cols-3 overflow-auto">
                     <li><a class="hover:bg-orange-400 py-1 px-8 text-white text-xl bg-slate-400" href="">Abs</a></li>
                     <li><a class="hover:bg-orange-400 py-1 px-5 text-white text-xl bg-slate-400" href="">Workout</a></li>
                     <li><a class="hover:bg-orange-400 py-1 px-5 text-white text-xl bg-slate-400" href="">Nutrition</a></li>
